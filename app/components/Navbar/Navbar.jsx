@@ -13,14 +13,6 @@ export default function Navbar() {
   
   return (
     <nav className="navbar">
-      <div className="navbar-top">
-        <Link href={'/'} className="link-title">
-        <h1 className={`navbar-title`} title="Home">
-          Victor Maximiliano Herrera
-        </h1>
-        
-        </Link>
-      </div>
 
       <div className="navbar-bottom">
         <a className="nav-link" href={lang==='en'?"/CV - Victor Maximiliano Herrera.pdf":"/CV - Victor Maximiliano Herrera.pdf"} download>
