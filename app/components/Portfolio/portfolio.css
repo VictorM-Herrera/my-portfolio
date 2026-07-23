@@ -221,35 +221,26 @@
     position: static;
   }
 }
-@media (max-height: 700px) {
+@media (max-height: 700px) and (min-width: 901px) {
   .normal-page {
     padding-top: 72px;
   }
 
   .normal-layout {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1.5rem 3rem;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 300px minmax(0, 1fr);
     gap: 1.5rem;
   }
 
   .normal-sidebar,
   .normal-section {
-    position: static;
-    top: auto;
-
-    max-width: 900px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
     padding-inline: 1.8rem;
   }
 
   .normal-sidebar {
-    margin-bottom: 0;
+    top: calc(var(--nav-h) + 16px);
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
   }
