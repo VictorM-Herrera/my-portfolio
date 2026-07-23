@@ -23,7 +23,7 @@ export default function Projects() {
               <a href="https://github.com/VictorM-Herrera/games-commerce" target="_blank">
                 <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
               </a>
-              <a href="https://games-commerce-nine.vercel.app/" target="_blank">
+              <a href="https://games.calmfire.ar/" target="_blank">
                 <Image src="/icons/external_link.png" alt="live" width={26} height={26}  title={lang === "en" ? "View site" : "Ver la pagina"}/>
               </a>
             </div>
@@ -77,7 +77,7 @@ export default function Projects() {
               <a href="https://github.com/VictorM-Herrera/Kanban-board" target="_blank">
                 <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
               </a>
-              <a href="https://kanban-board-b7w7.vercel.app/" target="_blank">
+              <a href="https://kanban-board.calmfire.ar/" target="_blank">
                 <Image src="/icons/external_link.png" alt="live" width={26} height={26} title={lang === "en" ? "View site" : "Ver la pagina"}/>
               </a>
             </div>
@@ -101,7 +101,7 @@ export default function Projects() {
               <a href="https://github.com/VictorM-Herrera/Portfolio-boosterpack" target="_blank">
                 <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
               </a>
-              <a href="https://victor-herrera-v1.vercel.app/" target="_blank">
+              <a href="https://victor-herrera-v1.calmfire.ar/" target="_blank">
                 <Image src="/icons/external_link.png" alt="live" width={26} height={26} title={lang === "en" ? "View site" : "Ver la pagina"}/>
               </a>
             </div>
