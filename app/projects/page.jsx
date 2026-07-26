@@ -30,6 +30,30 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* DEVCOIN */}
+        <div className="project">
+          <p>"Dev-Coin" crypto-wallet</p>
+
+          <div className="image-wrapper">
+            <Image
+              className="project-image"
+              src="/projects/Dev-coin.png"
+              alt="HiveRH"
+              width={350}
+              height={250}
+            />
+
+            <div className="picon-section">
+              <a href="https://github.com/VictorM-Herrera/devCoin-front" target="_blank">
+                <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
+              </a>
+              <a href="https://devcoin.calmfire.ar/" target="_blank">
+                <Image src="/icons/external_link.png" alt="live" width={26} height={26} title={lang === "en" ? "View site" : "Ver la pagina"}/>
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* MMBOT */}
         <div className="project">
           <p>"MMBOT" discord-bot</p>
