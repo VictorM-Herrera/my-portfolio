@@ -5,6 +5,7 @@ import "./Navbar.css";
 import Link from "next/link";
 import { useLanguage } from "@/app/context/LanguageContex";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const {lang} = useLanguage();
@@ -20,7 +21,7 @@ export default function Navbar() {
     <nav className="navbar">
       {showBackButton && (
         <Link className="back-home" href="/" aria-label={lang === "en" ? "Back to home" : "Volver al inicio"}>
-          <span aria-hidden="true">&larr;</span>
+          <span className="home-icon" aria-hidden="true" title={lang === "en" ? "Home screen" : "Pantalla principal"}/>
         </Link>
       )}
 

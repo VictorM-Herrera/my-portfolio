@@ -79,6 +79,24 @@
   transform: translateX(-2px);
 }
 
+.home-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+
+  background-color: white;
+
+  mask-image: url("/icons/home.png");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+  -webkit-mask-image: url("/icons/home.png");
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
 .download-menu {
   position: relative;
 }

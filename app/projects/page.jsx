@@ -85,7 +85,7 @@ export default function Projects() {
         </div>
 
         {/* Kanban Board */}
-        <div className="project">
+        {/* <div className="project">
           <p>"KanbanBoard" Angular-Ts-project</p>
 
           <div className="image-wrapper">
@@ -106,7 +106,7 @@ export default function Projects() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Portfolio BoosterPack */}
       <div className="project">
@@ -131,7 +131,8 @@ export default function Projects() {
             </div>
           </div>
         </div>
-
+        
+        {/* HiveRH */}
         <div className="project">
           <p>"HiveRH-API" Java-Springboot-project</p>
 
