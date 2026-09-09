@@ -1,15 +1,14 @@
-'use client'
+"use client";
 import React from "react";
 import "./projects.css";
 import Image from "next/image";
 import { useLanguage } from "../context/LanguageContex";
 
 export default function Projects() {
-  const {lang} = useLanguage();
+  const { lang } = useLanguage();
   return (
     <div className="p-container">
-      <h2 className="project-title">
-        {lang ==='en' ? "My Projects": "Mis proyectos"}</h2>
+      <h2 className="project-title">{lang === "en" ? "My Projects" : "Mis proyectos"}</h2>
 
       <div className="projects-section">
         {/* Xbox Games */}
@@ -21,10 +20,22 @@ export default function Projects() {
 
             <div className="picon-section">
               <a href="https://github.com/VictorM-Herrera/games-commerce" target="_blank">
-                <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
+                <Image
+                  src="/icons/github.png"
+                  alt="github"
+                  width={30}
+                  height={30}
+                  title={lang === "en" ? "View repo" : "Ir al repositorio"}
+                />
               </a>
               <a href="https://games.calmfire.ar/" target="_blank">
-                <Image src="/icons/external_link.png" alt="live" width={26} height={26}  title={lang === "en" ? "View site" : "Ver la pagina"}/>
+                <Image
+                  src="/icons/external_link.png"
+                  alt="live"
+                  width={26}
+                  height={26}
+                  title={lang === "en" ? "View site" : "Ver la pagina"}
+                />
               </a>
             </div>
           </div>
@@ -35,20 +46,26 @@ export default function Projects() {
           <p>"Dev-Coin" crypto-wallet</p>
 
           <div className="image-wrapper">
-            <Image
-              className="project-image"
-              src="/projects/Dev-coin.png"
-              alt="HiveRH"
-              width={350}
-              height={250}
-            />
+            <Image className="project-image" src="/projects/Dev-coin.png" alt="HiveRH" width={350} height={250} />
 
             <div className="picon-section">
               <a href="https://github.com/VictorM-Herrera/devCoin-front" target="_blank">
-                <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
+                <Image
+                  src="/icons/github.png"
+                  alt="github"
+                  width={30}
+                  height={30}
+                  title={lang === "en" ? "View repo" : "Ir al repositorio"}
+                />
               </a>
               <a href="https://devcoin.calmfire.ar/" target="_blank">
-                <Image src="/icons/external_link.png" alt="live" width={26} height={26} title={lang === "en" ? "View site" : "Ver la pagina"}/>
+                <Image
+                  src="/icons/external_link.png"
+                  alt="live"
+                  width={26}
+                  height={26}
+                  title={lang === "en" ? "View site" : "Ver la pagina"}
+                />
               </a>
             </div>
           </div>
@@ -63,7 +80,13 @@ export default function Projects() {
 
             <div className="picon-section">
               <a href="https://github.com/VictorM-Herrera/MMBOT" target="_blank">
-                <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"}/>
+                <Image
+                  src="/icons/github.png"
+                  alt="github"
+                  width={30}
+                  height={30}
+                  title={lang === "en" ? "View repo" : "Ir al repositorio"}
+                />
               </a>
             </div>
           </div>
@@ -78,7 +101,13 @@ export default function Projects() {
 
             <div className="picon-section">
               <a href="https://github.com/VictorM-Herrera/JavaFX-Calculator" target="_blank">
-                <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
+                <Image
+                  src="/icons/github.png"
+                  alt="github"
+                  width={30}
+                  height={30}
+                  title={lang === "en" ? "View repo" : "Ir al repositorio"}
+                />
               </a>
             </div>
           </div>
@@ -107,55 +136,100 @@ export default function Projects() {
             </div>
           </div>
         </div> */}
+        {/* Bibliotech */}
+        <div className="project">
+          <p>"Bibliotech" JS - University Project</p>
 
+          <div className="image-wrapper">
+            <Image className="project-image" src="/projects/Bibliotech.png" alt="Bibliotech" width={350} height={250} />
+
+            <div className="picon-section">
+              <a href="https://github.com/VictorM-Herrera/Bibliotech-Gestor-de-libros" target="_blank">
+                <Image
+                  src="/icons/github.png"
+                  alt="github"
+                  width={30}
+                  height={30}
+                  title={lang === "en" ? "View repo" : "Ir al repositorio"}
+                />
+              </a>
+              <a href="https://bibliotech.calmfire.ar/" target="_blank">
+                <Image
+                  src="/icons/external_link.png"
+                  alt="live"
+                  width={26}
+                  height={26}
+                  title={lang === "en" ? "View site" : "Ver la pagina"}
+                />
+              </a>
+            </div>
+          </div>
+        </div>
         {/* Portfolio BoosterPack */}
-      <div className="project">
+        <div className="project">
           <p>"Portfolio BoosterPack" Next-Js-project</p>
 
           <div className="image-wrapper">
             <Image
               className="project-image"
               src="/projects/portfolio.png"
-              alt="Kanban Board"
+              alt="Portfolio Boosterpack"
               width={350}
               height={250}
             />
 
             <div className="picon-section">
               <a href="https://github.com/VictorM-Herrera/Portfolio-boosterpack" target="_blank">
-                <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
+                <Image
+                  src="/icons/github.png"
+                  alt="github"
+                  width={30}
+                  height={30}
+                  title={lang === "en" ? "View repo" : "Ir al repositorio"}
+                />
               </a>
               <a href="https://victor-herrera-v1.calmfire.ar/" target="_blank">
-                <Image src="/icons/external_link.png" alt="live" width={26} height={26} title={lang === "en" ? "View site" : "Ver la pagina"}/>
+                <Image
+                  src="/icons/external_link.png"
+                  alt="live"
+                  width={26}
+                  height={26}
+                  title={lang === "en" ? "View site" : "Ver la pagina"}
+                />
               </a>
             </div>
           </div>
         </div>
-        
+
         {/* HiveRH */}
         <div className="project">
           <p>"HiveRH-API" Java-Springboot-project</p>
 
           <div className="image-wrapper">
-            <Image
-              className="project-image"
-              src="/projects/hiverh.png"
-              alt="HiveRH"
-              width={350}
-              height={250}
-            />
+            <Image className="project-image" src="/projects/hiverh.png" alt="HiveRH" width={350} height={250} />
 
             <div className="picon-section">
               <a href="https://github.com/VictorM-Herrera/HiveRH" target="_blank">
-                <Image src="/icons/github.png" alt="github" width={30} height={30} title={lang === "en" ? "View repo" : "Ir al repositorio"} />
+                <Image
+                  src="/icons/github.png"
+                  alt="github"
+                  width={30}
+                  height={30}
+                  title={lang === "en" ? "View repo" : "Ir al repositorio"}
+                />
               </a>
               <a href="https://hiverh.calmfire.ar/swagger-ui/index.html" target="_blank">
-                <Image src="/icons/external_link.png" alt="live" width={26} height={26} title={lang === "en" ? "View site" : "Ver la pagina"}/>
+                <Image
+                  src="/icons/external_link.png"
+                  alt="live"
+                  width={26}
+                  height={26}
+                  title={lang === "en" ? "View site" : "Ver la pagina"}
+                />
               </a>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
