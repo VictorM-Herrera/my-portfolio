@@ -12,8 +12,8 @@ export default function Navbar() {
   const pathname = usePathname();
   const showBackButton = pathname !== "/";
   const resumeFiles = {
-    es: "/CV - Victor Maximiliano Herrera_(SP).pdf",
-    en: "/CV - Victor Maximiliano Herrera.pdf",
+    es: "/CV Victor Maximiliano Herrera - Español",
+    en: "/CV Victor Maximiliano Herrera - EN",
   };
 
   
