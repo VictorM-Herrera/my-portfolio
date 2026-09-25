@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import "./portfolio.css";
 import { useLanguage } from "@/app/context/LanguageContex";
@@ -10,7 +10,7 @@ export default function Portfolio() {
       <div className="normal-layout">
         <aside className="normal-sidebar">
           <div className="normal-avatar">
-            <Image src={"/hero_image.png"} alt="Hero image" width={140} height={140} priority/>
+            <Image src={"/hero_image.png"} alt="Hero image" width={140} height={140} priority />
           </div>
           <h1 className="normal-name">Victor M. Herrera</h1>
           <p className="normal-role">{lang === "en" ? "Full Stack Developer" : "Desarrollador Full Stack"}</p>
@@ -46,26 +46,6 @@ export default function Portfolio() {
 
             <div className="timeline-item">
               <div className="timeline-header">
-                <h3>Backend Developer</h3>
-                <span className="timeline-date">{lang === "en" ? "jan 2025 – jul 2026" : "ene 2025 – jul 2026"}</span>
-              </div>
-              <p className="timeline-company">Rubicom Soluciones en Gestión</p>
-              <ul className="timeline-list">
-                <li>
-                  {lang === "en"
-                    ? "Maintained a production point-of-sale system used by client businesses, with responsibility for continuity, bug fixes and incremental improvements."
-                    : "Mantuve un sistema de punto de venta en producción utilizado por clientes, con responsabilidad sobre su continuidad, corrección de errores y mejoras incrementales."}
-                </li>
-                <li>
-                  {lang === "en"
-                    ? "Used PHP and JavaScript to diagnose issues and implement backend changes in a live environment."
-                    : "Utilicé PHP y JavaScript para diagnosticar incidencias e implementar cambios de backend sobre un entorno activo."}
-                </li>
-              </ul>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-header">
                 <h3>{lang === "en" ? "Full Stack Developer" : "Desarrollador Full Stack"}</h3>
                 <span className="timeline-date">{lang === "en" ? "dec 2024 – Present" : "dic 2024 – Actualidad"}</span>
               </div>
@@ -98,6 +78,26 @@ export default function Portfolio() {
 
             <div className="timeline-item">
               <div className="timeline-header">
+                <h3>Backend Developer</h3>
+                <span className="timeline-date">{lang === "en" ? "jan 2025 – jul 2026" : "ene 2025 – jul 2026"}</span>
+              </div>
+              <p className="timeline-company">Rubicom Soluciones en Gestión</p>
+              <ul className="timeline-list">
+                <li>
+                  {lang === "en"
+                    ? "Maintained a production point-of-sale system used by client businesses, with responsibility for continuity, bug fixes and incremental improvements."
+                    : "Mantuve un sistema de punto de venta en producción utilizado por clientes, con responsabilidad sobre su continuidad, corrección de errores y mejoras incrementales."}
+                </li>
+                <li>
+                  {lang === "en"
+                    ? "Used PHP and JavaScript to diagnose issues and implement backend changes in a live environment."
+                    : "Utilicé PHP y JavaScript para diagnosticar incidencias e implementar cambios de backend sobre un entorno activo."}
+                </li>
+              </ul>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-header">
                 <h3>{lang === "en" ? "Frontend Developer" : "Desarrollador Frontend"}</h3>
                 <span className="timeline-date">{lang === "en" ? "feb 2023 – dec 2024" : "feb 2023 – dic 2024"}</span>
               </div>
@@ -124,7 +124,9 @@ export default function Portfolio() {
               <div className="timeline-header">
                 <h3>{lang === "en" ? "Applied AI and automation" : "IA aplicada y automatización"}</h3>
               </div>
-              <p className="timeline-company">{lang === "en" ? "Learning path and portfolio development" : "Formación y desarrollo de portfolio"}</p>
+              <p className="timeline-company">
+                {lang === "en" ? "Learning path and portfolio development" : "Formación y desarrollo de portfolio"}
+              </p>
               <ul className="timeline-list">
                 <li>
                   {lang === "en"
