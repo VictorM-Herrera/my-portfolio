@@ -15,7 +15,7 @@ export default function Navbar() {
     es: "/CV Victor Maximiliano Herrera - Español",
     en: "/CV Victor Maximiliano Herrera - EN",
   };
-
+//test
   
   return (
     <nav className="navbar">
